@@ -1,0 +1,5 @@
+category: Ruby
+requires: ruby rake rubygems
+sdesc: "Ruby Rakefile generation module"
+ldesc: "mkrf is a Ruby module used to generate Rakefiles for Ruby 
+extension modules. It is intended as a replacement for mkmf."

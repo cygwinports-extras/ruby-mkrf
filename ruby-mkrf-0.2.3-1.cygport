@@ -1,0 +1,12 @@
+ORIG_PN="mkrf"
+inherit ruby
+
+DESCRIPTION="Ruby Rakefile generation module"
+HOMEPAGE="http://mkrf.rubyforge.org/"
+SRC_URI="mirror://rubyforge/mkrf/${ORIG_PN}-${PV}.gem"
+
+src_install() {
+	cd ${B}
+	dodir ${RUBY_SITELIB}
+	cp -Lr lib/* ${D}${RUBY_SITELIB}
+}
