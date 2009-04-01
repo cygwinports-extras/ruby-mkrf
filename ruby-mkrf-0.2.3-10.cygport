@@ -4,6 +4,7 @@ inherit ruby
 DESCRIPTION="Ruby Rakefile generation module"
 HOMEPAGE="http://mkrf.rubyforge.org/"
 SRC_URI="mirror://rubyforge/mkrf/${ORIG_PN}-${PV}.gem"
+PATCH_URI="0.2.3-cygwin.patch"
 
 src_install() {
 	cd ${B}

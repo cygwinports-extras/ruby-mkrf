@@ -4,13 +4,13 @@ mkrf is a Ruby module used to generate Rakefiles for Ruby extension
 modules. It is intended as a replacement for mkmf.
 
 Runtime requirements:
-  ruby-1.8.6-1
-  ruby-rake-0.7.2-1
-  rubygems-0.9.4-1
+  rake-0.8.4-1
+  ruby-1.8.7_p72-10
+  rubygems-1.3.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygport-0.3.10-1
+  cygport-0.9.6-1
 
 Canonical website:
   http://mkrf.rubyforge.org/
@@ -39,15 +39,15 @@ Files included in the binary package:
   /usr/lib/ruby/site_ruby/1.8/mkrf/availability.rb
   /usr/lib/ruby/site_ruby/1.8/mkrf/generator.rb
   /usr/lib/ruby/site_ruby/1.8/mkrf/rakehelper.rb
-  /usr/share/doc/ruby-mkrf-0.2.3/ChangeLog
-  /usr/share/doc/ruby-mkrf-0.2.3/README
+  /usr/share/doc/ruby-mkrf/ChangeLog
+  /usr/share/doc/ruby-mkrf/README
 
 ------------------
 
 Port Notes:
 
------ version 0.2.3-1 -----
-Initial release for Cygwin.
+----- version 0.2.3-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
